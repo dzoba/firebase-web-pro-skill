@@ -4,13 +4,19 @@ A Claude Code skill that ensures your Firebase + Vite + React + Tailwind website
 
 ## Install
 
-Run this in your terminal:
+**For all your projects (personal scope):**
 
 ```bash
-claude skill add --url https://github.com/dzoba/firebase-web-pro-skill
+git clone https://github.com/dzoba/firebase-web-pro-skill.git ~/.claude/skills/firebase-web-pro
 ```
 
-That's it. The skill will automatically activate when you're building a web app with Firebase, React, or similar stacks.
+**Or for a single project only:**
+
+```bash
+git clone https://github.com/dzoba/firebase-web-pro-skill.git .claude/skills/firebase-web-pro
+```
+
+That's it — no config needed. Claude Code automatically discovers skills from these directories. The skill will activate when you're building a web app with Firebase, React, or similar stacks.
 
 ## What it does
 
